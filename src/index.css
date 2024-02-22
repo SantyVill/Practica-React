@@ -1,0 +1,31 @@
+body {
+    background-color: #222;
+    color: white;
+    font-family: system-ui;
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+}
+
+.avatar {
+    height: 6vh;
+    border-radius: 100%;
+}
+
+.avatar .user-info {
+    display: grid;
+}
+
+.bt-follow:hover{
+    background-color: cornflowerblue;
+}
+
+.bt-follow{
+    padding: 0.5vh;
+    border-radius: 999px;
+
+}
+
+.bt-follow.is-following:hover{
+    background-color: red;
+}
